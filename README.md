@@ -1,1 +1,4 @@
 # the-java-guesser
+1. when the program starts up, a menu will appear with the options of exiting the game, have the player guess the computer's number, or have the computer guess the player's number (using input.nextInt() as 0, 1, or 2 respectfully)
+2. If the player chooses to guess the computer's number, then the value of the computer's number is set using random.nextInt(101) selecting a number from 1-100, the player tries to guess the computer's number while it determines whether your guess is too high, too low, or correct. the game continues until the player guesses correctly. If the player chooses to have the computer guess their number, then the computer will start with 50, then will either divide its guess if its too high, or add half of its guess if its too low. the game continues until the player types in c to say that its correct.
+3. If the player chooses to exit the game, the program will end.
